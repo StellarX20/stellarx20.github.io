@@ -104,3 +104,7 @@ function switchstyle(isdark = darkm.bool) {
 	}
 	return darkm.bool
 }
+function randb(min = 0, max = 10) {
+	var range = max-min
+	return (random() * range) + min
+}
